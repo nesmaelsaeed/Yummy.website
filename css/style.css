@@ -1,0 +1,310 @@
+/* header */
+.custom-btn:focus {
+    outline: none;
+    border-bottom: 2px solid red;
+}
+
+
+.custom-hero-img {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.custom-hero-img {
+    width: 100%;  
+    height: 100%; 
+    object-fit: cover;  
+    animation: float 3s ease-in-out infinite;
+}
+
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+}
+
+
+
+/* <!-- number section --> */
+.background {
+    background-image: url('../img/about-2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.counter-box {
+    text-align: center;
+    margin: 15px;
+}
+
+.counter-box h2 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.counter-box p {
+    font-size: 1.2rem;
+}
+
+
+.counters-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.counter-box {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 200px;
+}
+
+/* section 2 */
+
+#book-table .border-dark {
+    border-width: 20px;
+    border-radius: 10px;
+}
+
+
+#book-table i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+
+#book-table p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* section 3 */
+
+.white-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.red-box {
+    background-color: red;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+/* button */
+#learnMoreBtn {
+    transition: background-color 0.3s;
+}
+
+
+/* section 5 */
+.btn-menu {
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    color: #000;
+    font-family: 'Amatic SC', serif;
+}
+
+
+.btn-menu:focus {
+    outline: none;
+    border-bottom: 3px solid red;
+}
+
+
+#menu-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+    font-family: 'Amatic SC', serif;
+}
+
+
+#menu-items .col-md-4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+#menu-items .text-danger {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+
+/* section 7 */
+.event-item {
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+
+.overlay h3 {
+    font-family: 'Amatic SC', serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.overlay .price {
+    font-size: 28px;
+    font-weight: bold;
+    align-self: start;
+    color: #ff4d4d;
+}
+
+
+.overlay p.description {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    max-width: 80%;
+    line-height: 1.6;
+}
+
+
+
+/* section 8 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.chefs-section {
+    background-color: #f8f9fa;
+}
+
+.chef-card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.chef-card img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.chef-card:hover .text-overlay {
+    transform: translateY(0);
+}
+
+
+
+/* section 10 */
+
+.gallery-item img {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+
+.featured {
+    border: 5px solid red;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+
+/* section 11 */
+
+.icon-circle {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+
+h3 {
+    font-family: 'Amatic SC', serif;
+    font-weight: bold;
+}
+
+
+p {
+    color: #777;
+}
+
+
+img.img-fluid {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
